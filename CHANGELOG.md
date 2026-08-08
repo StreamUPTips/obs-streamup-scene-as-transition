@@ -1,5 +1,14 @@
 # Scene As Transition - Changelog
 
+## Unreleased
+**Patch Focus:** Packaging and branding only
+- Added Flathub submission manifests so the plugin can ship on Flatpak
+- Fixed the Flatpak metainfo SPDX licence id, content rating and tag pattern
+- Updated to the new StreamUP logo
+
+Nothing here changes how the plugin works. There is no reason to push a release
+for this on its own, it can ride along with the next real fix.
+
 ## v1.3.1 (12 Apr '26)
 **Patch Focus:** Filter reliability, old plugin detection & Qt 6.10 compat
 - Fixed Filter to Trigger breaking after OBS updates because the filter reference was cached at load time and never refreshed. Filter is now looked up fresh at each transition start and released on stop
