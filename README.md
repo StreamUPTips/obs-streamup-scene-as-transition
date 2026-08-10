@@ -26,6 +26,8 @@ Grab some ready-made examples at [StreamUP](https://streamup.tips) to get starte
 
 ## Build
 
+Requires OBS Studio 31.1 or newer.
+
 **In-tree build:**
 1. Build OBS Studio: https://obsproject.com/wiki/Install-Instructions
 2. Check out this repository to `frontend/plugins/obs-streamup-scene-as-transition`
