@@ -19,3 +19,7 @@
 /.flatpak-builder/
 /flatpak/build/
 /flatpak/repo/
+
+# Generated from version.h.in by CMake at configure time. It landed in the
+# source tree and was tracked, so every build showed up as a diff.
+/version.h
